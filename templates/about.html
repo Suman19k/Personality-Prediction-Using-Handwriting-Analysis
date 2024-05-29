@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Personality Prediction Based On Handwriting Image</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="{{ url_for('static', filename='lib/animate/animate.min.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet">
+</head>
+
+<body>
+   
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>Personality Prediction Based On Handwriting Image</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="{{ url_for('home') }}" class="nav-item nav-link ">Home</a>
+                <a href="{{ url_for('about') }}" class="nav-item nav-link active">About</a>
+
+                
+                <a  href="{{ url_for('contact') }}"  class="nav-item nav-link">Predictions</a>
+              
+            </div>
+            <a href="{{ url_for('login') }}"  class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Log Out<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+       
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">About Us</h1>
+                   
+                </div>
+            </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x  text-primary mb-4"></i>
+                            <h5 class="mb-3">Personality Prediction Based On Handwriting Image</h5>
+                            <p>Handwriting reveals the true personality including Anxious, Cooperative, Responsible, Openess and Enthusiastic.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x  text-primary mb-4"></i>
+                            <h5 class="mb-3">What are we trying to do?</h5>
+                            <p>With this project we are trying to find out Personality Prediction and we have different types of class. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x  text-primary mb-4"></i>
+                            <h5 class="mb-3">Context</h5>
+                            <p>Professional handwriting examiners called graphologists often identify the writer with a piece of handwriting. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x  text-primary mb-4"></i>
+                            <h5 class="mb-3">More about Personality detection from Image</h5>
+                            <p>Humans have a variety of emotions and it is difficult to collect enough records for each emotion and hence the problem of class imbalance arises. </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x  text-primary mb-4"></i>
+                            <h5 class="mb-3">Responsible</h5>
+                            <p>Characteristics with this class are known for their diligence, thoroughness, and careful attention to detail in their actions. They tend to be goal-oriented individuals who are committed to following through on their commitments and tasks. Traits such as the consistency of handwriting, the neatness of writing, and the presence of attention to detail serve as indicators of a person's level of responsibility.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x  text-primary mb-4"></i>
+                            <h5 class="mb-3">Co-operative</h5>
+                            <p>Characteristics with this class are empathetic, helpful, and trusting, often described as warm and compassionate. Handwriting analysis offers clues to this trait through indicators like the slope, pressure, and fluidity of writing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x  text-primary mb-4"></i>
+                            <h5 class="mb-3">Enthusiastic</h5>
+                            <p> Charwith this class are typically assertive, talkative, and enthusiastic in social settings, enjoying being around others and often seeking attention. In handwriting analysis, indicators like the size, spacing, slant, and pressure of writing can reveal a person's level of extraversion.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x  text-primary mb-4"></i>
+                            <h5 class="mb-3">Anxious</h5>
+                            <p>Characteristics with this class may be moody, anxious, and easily stressed. In handwriting analysis, traits such as pressure, letter size, spacing, and consistency can indicate anxious levels.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x  text-primary mb-4"></i>
+                            <h5 class="mb-3">Openess</h5>
+                            <p>Characteristics such as handwriting style, decoration, doodles, and overall complexity can indicate a person's level of openness. Those with high openness may showcase varied and creative handwriting, while those with low openness might display more uniform and straightforward writing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+
+
+    
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/lib/wow/wow.min.js"></script>
+    <script src="static/lib/easing/easing.min.js"></script>
+    <script src="static/lib/waypoints/waypoints.min.js"></script>
+    <script src="static/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="static/js/main.js"></script>
+</body>
+
+</html>
